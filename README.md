@@ -15,7 +15,7 @@ The Todo app server provides the following actions:
 #### Browse Todos
 Endpoint is GET http://localhost:8080/todos
 #### Create Todo
-Endpoint is POST http://localhost:8080/todos
+Endpoint is POST http://localhost:8080/todos\
 Example HTTP Request Body (raw JSON):
 ```json
 {
@@ -23,11 +23,11 @@ Example HTTP Request Body (raw JSON):
 }
 ```
 #### Remove Todo
-Endpoint is DELETE http://localhost:8080/todos/{todoId}
+Endpoint is DELETE http://localhost:8080/todos/{todoId}\
 Where {todoId} is a UUID
 #### Update Todo
-Endpoint is PUT http://localhost:8080/todos/{todoId}
-Where {todoId} is a UUID
+Endpoint is PUT http://localhost:8080/todos/{todoId}\
+Where {todoId} is a UUID\
 Example HTTP Request Body (raw JSON):
 ```json
 {
@@ -35,11 +35,11 @@ Example HTTP Request Body (raw JSON):
 }
 ```
 #### Browse Task in Todo
-Endpoint is GET http://localhost:8080/todos/{todoId}/tasks
+Endpoint is GET http://localhost:8080/todos/{todoId}/tasks\
 Where {todoId} is a UUID
 #### Create Task in Todo
-Endpoint is POST http://localhost:8080/todos/{todoId}/tasks
-Where {todoId} is a UUID
+Endpoint is POST http://localhost:8080/todos/{todoId}/tasks\
+Where {todoId} is a UUID\
 Example HTTP Request Body (raw JSON):
 ```json
 {
@@ -48,11 +48,11 @@ Example HTTP Request Body (raw JSON):
 }
 ```
 #### Remove Task in Todo
-Endpoint is DELETE http://localhost:8080/todos/{todoId}/tasks/{taskId}
+Endpoint is DELETE http://localhost:8080/todos/{todoId}/tasks/{taskId}\
 Where {todoId} and {taskId} are UUIDs
 #### Update Task in Todo
-Endpoint is PUT http://localhost:8080/todos/{todoId}/tasks/{taskId}
-Where {todoId} and {taskId} are UUIDs
+Endpoint is PUT http://localhost:8080/todos/{todoId}/tasks/{taskId}\
+Where {todoId} and {taskId} are UUIDs\
 Example HTTP Request Body (raw JSON):
 ```json
 {
