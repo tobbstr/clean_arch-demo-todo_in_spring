@@ -1,10 +1,7 @@
 # Clean Architecture Demo - Todo app in Spring Boot
 ## Background
-This demo demonstrates one out of many possible ways to organise source code according to Clean Architecture, more specifically, in the form of a Todo app.
-The source code has been segmented into the following three Java packages at the root level of the application:
-* **Entities**: Pure business rules and objects
-* **Infrastructure**: Pure delivery mechanisms
-* **Use case**: Application specific business rules and objects. Each use case has been given its own Java package. One thing to note is that code belonging to the Frameworks & Drivers and Interfaces and Adapters layers, has been put into a joint sub-package in each use case package called Infradapt to convey its intent and purpose. The reason was to keep code belonging to a use case together. Also because I believe it to be the optimal structure for most apps implementing Clean Architecture. Another option would be to keep them as separate layers which would require more interfaces and Data Transfer Objects to implement. This would result in classes with narrower responsibilities, which would be good for testability among other things, but at the same time this would increase implementation complexity.
+This demo demonstrates one of many possible ways to organise source code according to Clean Architecture, more specifically, in the form of a Todo app.
+After writing the article [Clean Architecture Demystified](https://adevelopersdiscourse.blogspot.com/2020/06/clean-architecture-demystified.html), I wanted to get a little hands-on and go from theory to practice. As always there are things to discover when implementing something for real. If you're not familiar with Clean Architecture, I suggest you read my article before reading the source code in this repo.
 ## Original Setup
 * Spring Boot v2.3.5.RELEASE
 * Java v11
