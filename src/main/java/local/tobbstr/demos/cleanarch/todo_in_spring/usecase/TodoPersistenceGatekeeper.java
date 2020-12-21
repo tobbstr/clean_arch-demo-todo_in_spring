@@ -6,6 +6,12 @@ import java.util.UUID;
 import local.tobbstr.demos.cleanarch.todo_in_spring.entities.Task;
 import local.tobbstr.demos.cleanarch.todo_in_spring.entities.Todo;
 
+/**
+ * TodoPersistenceGatekeeper is a Clean Architecture Gateway defining the persistence
+ * actions available for manipulating Todo and Task entity objects.
+ * @author tobias
+ *
+ */
 public interface TodoPersistenceGatekeeper {
 	// Todo related methods
 	Todo findTodoById(UUID todoId);

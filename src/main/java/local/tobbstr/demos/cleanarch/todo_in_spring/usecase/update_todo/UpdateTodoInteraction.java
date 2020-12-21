@@ -3,6 +3,11 @@ package local.tobbstr.demos.cleanarch.todo_in_spring.usecase.update_todo;
 import local.tobbstr.demos.cleanarch.todo_in_spring.entities.Todo;
 import local.tobbstr.demos.cleanarch.todo_in_spring.usecase.TodoPersistenceGatekeeper;
 
+/**
+ * UpdateTodoInteraction is an implementation of {@link UpdateTodoInteractor}.
+ * @author tobias
+ *
+ */
 public class UpdateTodoInteraction implements UpdateTodoInteractor {
 	private UpdateTodoPresenter presenter;
 	private TodoPersistenceGatekeeper gatekeeper;

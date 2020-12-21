@@ -6,8 +6,8 @@ import local.tobbstr.demos.cleanarch.todo_in_spring.entities.Todo;
 import local.tobbstr.demos.cleanarch.todo_in_spring.usecase.TodoPersistenceGatekeeper;
 
 /**
- * TodoInteraction is the implementation of the Input Boundary interface TodoInteractor.
- * Its purpose is to provide all of the Todo-related use cases.
+ * CreateTodoInteraction is an implementation of {@link CreateTodoInteractor}.
+ * @author tobias
  *
  */
 public class CreateTodoInteraction implements CreateTodoInteractor {

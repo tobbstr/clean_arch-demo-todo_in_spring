@@ -8,6 +8,11 @@ import local.tobbstr.demos.cleanarch.todo_in_spring.entities.Task;
 import local.tobbstr.demos.cleanarch.todo_in_spring.entities.Todo;
 import local.tobbstr.demos.cleanarch.todo_in_spring.usecase.TodoPersistenceGatekeeper;
 
+/**
+ * AddTaskToTodoInteraction is an implementation of {@link AddTaskToTodoInteractor}.
+ * @author tobias
+ *
+ */
 public class AddTaskToTodoInteraction implements AddTaskToTodoInteractor {
 	private AddTaskToTodoPresenter presenter;
 	private TodoPersistenceGatekeeper gatekeeper;
@@ -18,9 +23,9 @@ public class AddTaskToTodoInteraction implements AddTaskToTodoInteractor {
 	}
 
 	/**
-	 * addTaskToTodo adds Task entity to Todo
+	 * addTaskToTodo adds a Task entity to a Todo entity.
 	 * @param reqModel is a clean architecture request model
-	 * @return AddTaskToTodoResModel
+	 * @return {@link AddTaskToTodoResModel} 
 	 * @throws RuntimeException if any errors occur
 	 */
 	@Override
