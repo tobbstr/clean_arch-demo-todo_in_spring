@@ -3,6 +3,11 @@ package local.tobbstr.demos.cleanarch.todo_in_spring.usecase.remove_todo;
 import local.tobbstr.demos.cleanarch.todo_in_spring.entities.Todo;
 import local.tobbstr.demos.cleanarch.todo_in_spring.usecase.TodoPersistenceGatekeeper;
 
+/**
+ * RemoveTodoInteraction is an implementation of {@link RemoveTodoInteractor}.
+ * @author tobias
+ *
+ */
 public class RemoveTodoInteraction implements RemoveTodoInteractor {
 	private RemoveTodoPresenter presenter;
 	private TodoPersistenceGatekeeper gatekeeper;

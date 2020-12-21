@@ -2,6 +2,12 @@ package local.tobbstr.demos.cleanarch.todo_in_spring.usecase.add_task_to_todo;
 
 import java.util.UUID;
 
+/**
+ * AddTaskToTodoReqModel is a Clean Architecture Request Model. It's a POJO class
+ * to pass data to the use case input boundary interface i.e. the Interactor.
+ * @author tobias
+ *
+ */
 public class AddTaskToTodoReqModel {
 	private UUID todoId;
 	private String title;

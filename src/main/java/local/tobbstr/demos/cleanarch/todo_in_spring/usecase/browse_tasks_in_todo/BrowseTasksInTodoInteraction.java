@@ -7,6 +7,11 @@ import java.util.List;
 import local.tobbstr.demos.cleanarch.todo_in_spring.entities.Task;
 import local.tobbstr.demos.cleanarch.todo_in_spring.usecase.TodoPersistenceGatekeeper;
 
+/**
+ * BrowseTasksInTodoInteraction is an implementation of {@link BrowseTasksInTodoInteractor}.
+ * @author tobias
+ *
+ */
 public class BrowseTasksInTodoInteraction implements BrowseTasksInTodoInteractor {
 	private BrowseTasksInTodoPresenter presenter;
 	private TodoPersistenceGatekeeper gatekeeper;

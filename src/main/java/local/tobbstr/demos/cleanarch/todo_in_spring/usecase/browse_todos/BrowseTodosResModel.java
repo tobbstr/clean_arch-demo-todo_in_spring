@@ -5,6 +5,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+/**
+ * This class has identical responsibilities to
+ * {@link local.tobbstr.demos.cleanarch.todo_in_spring.usecase.add_task_to_todo.AddTaskToTodoResModel}
+ * @author tobias
+ *
+ */
 public class BrowseTodosResModel {
 	private List<Todo> todos;
 	private String errMsg;

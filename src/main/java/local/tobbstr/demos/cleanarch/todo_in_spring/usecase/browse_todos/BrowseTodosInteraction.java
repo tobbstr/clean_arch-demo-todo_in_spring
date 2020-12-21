@@ -2,6 +2,11 @@ package local.tobbstr.demos.cleanarch.todo_in_spring.usecase.browse_todos;
 
 import local.tobbstr.demos.cleanarch.todo_in_spring.usecase.TodoPersistenceGatekeeper;
 
+/**
+ * BrowseTodosInteraction is an implementation of {@link BrowseTodosInteractor}.
+ * @author tobias
+ *
+ */
 public class BrowseTodosInteraction implements BrowseTodosInteractor {
 	private BrowseTodosPresenter presenter;
 	private TodoPersistenceGatekeeper gatekeeper;

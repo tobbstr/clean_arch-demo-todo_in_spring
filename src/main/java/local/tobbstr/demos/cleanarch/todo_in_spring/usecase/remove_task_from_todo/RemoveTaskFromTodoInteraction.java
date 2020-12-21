@@ -4,6 +4,11 @@ import local.tobbstr.demos.cleanarch.todo_in_spring.entities.Task;
 import local.tobbstr.demos.cleanarch.todo_in_spring.entities.Todo;
 import local.tobbstr.demos.cleanarch.todo_in_spring.usecase.TodoPersistenceGatekeeper;
 
+/**
+ * RemoveTaskFromTodoInteraction is an implementation of {@link RemoveTaskFromTodoInteractor}.
+ * @author tobias
+ *
+ */
 public class RemoveTaskFromTodoInteraction implements RemoveTaskFromTodoInteractor {
 	private RemoveTaskFromTodoPresenter presenter;
 	private TodoPersistenceGatekeeper gatekeeper;
