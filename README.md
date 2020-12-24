@@ -1,7 +1,7 @@
 # Clean Architecture Demo - Todo app in Spring Boot
 ## Background
 This demo demonstrates one of many possible ways to organise source code according to Clean Architecture, more specifically, in the form of a Todo app.
-After writing the article [Clean Architecture Demystified](https://adevelopersdiscourse.blogspot.com/2020/06/clean-architecture-demystified.html), I wanted to get a little hands-on and go from theory to practice. As always there are things to discover when implementing something for real. If you're not familiar with Clean Architecture, I suggest you read my article before reading the source code in this repo.
+After writing the article [Clean Architecture Demystified](https://adevelopersdiscourse.blogspot.com/2020/06/clean-architecture-demystified.html), I wanted to get a little hands-on and go from theory to practice. As always there are things to discover when implementing something for real. If you're not familiar with Clean Architecture, I suggest you read my article before reading the source code in this repo. I've also written another article [Implementing Clean Architecture](https://adevelopersdiscourse.blogspot.com/2020/12/implementing-clean-architecture.html) that complements this repo, giving context to it. I highly recommend you to read that one as well.
 ## Original Setup
 * Spring Boot v2.3.5.RELEASE
 * Java v11
